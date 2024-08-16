@@ -1,0 +1,65 @@
+
+.productDisplayer{
+    position: relative;
+    width: calc(100% + 0.75rem);
+    min-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.circle{
+    border-radius:50%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -80px;
+    right: -8.75rem;
+    z-index: 0;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    width: 40px;
+}
+
+.buy_section ,
+ .price_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.price_section .product_name{
+    position: relative;
+}
+/* .price_section .product_name::before{
+    position: absolute;
+    content: 'NIKE';
+    top: -1.5rem;
+    left: -5px;
+    font-size: small;
+} */
+
+.buy_section button{
+    
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: black;
+    border: 2px solid transparent;
+}
